@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Módulo 2 · Lección 7 | Actividad GitHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="bg-info bg-opacity-25">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">✦ iLuminux Lab ✦</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container my-5">
+
+        <!-- Hero -->
+        <section class="p-5 mb-4 bg-light rounded text-center">
+            <h1 class="text-danger">Karina Hidalgo</h1>
+            <p class="lead">
+                Diseñadora UX/UI enfocada en crear experiencias digitales claras,
+                accesibles y centradas en las personas.
+            </p>
+        </section>
+
+        <!-- Imagen -->
+        <img
+            src="assets/img/iluminux.png"
+            alt="Iluminux UX/UI"
+            class="d-block mx-auto img-fluid mb-3"
+            style="width: 400px; height: 300px; object-fit: cover;"
+        >
+
+        <p class="text-center fst-italic">
+            *La imagen fue ajustada con <code>object-fit: cover</code> para mantener la proporción sin deformarse.*
+        </p>
+
+        <!-- Botón -->
+        <div class="text-center my-4">
+            <button class="btn btn-primary">
+                Ver más información
+            </button>
+        </div>
+
+        <!-- Alerta -->
+        <div class="alert alert-success text-center" role="alert">
+            Sitio cargado correctamente utilizando Bootstrap.
+        </div>
+
+        <!-- Contenido -->
+        <section>
+            <h2 class="text-danger">¿Qué es HTML?</h2>
+            <p>
+                HTML es el lenguaje utilizado para estructurar el contenido de una página web.
+                Permite definir encabezados, párrafos, imágenes y otros elementos fundamentales.
+            </p>
+
+            <h2 class="text-danger">¿Por qué es importante el HTML5?</h2>
+            <p>
+                HTML5 incorporó nuevas etiquetas semánticas que mejoran la accesibilidad,
+                el SEO y la organización del contenido.
+            </p>
+        </section>
+
+        <!-- Botón Ir arriba -->
+        <div class="text-center my-5">
+            <button id="btn-ir-arriba" class="btn btn-secondary">
+                Ir arriba
+            </button>
+        </div>
+
+        <!-- Sección jQuery -->
+        <section class="my-5 text-center">
+            <h2 class="text-danger">Lista de ejemplo (jQuery)</h2>
+
+            <ul id="lista-ejemplo" class="list-unstyled">
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+
+            <button id="btn-toggle-lista" class="btn btn-warning mt-3">
+                Ocultar lista
+            </button>
+
+            <!-- Plugin Tooltip -->
+            <div class="mt-4">
+                <button
+                    class="btn btn-info"
+                    data-bs-toggle="tooltip"
+                    title="Este es un tooltip usando Bootstrap y jQuery">
+                    Botón con Tooltip
+                </button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-5 opacity-75">
+            <p>© 2025 | Módulo 2 · Lección 7</p>
+            <p>Página creada por Karina Hidalgo</p>
+        </footer>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS propio -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
